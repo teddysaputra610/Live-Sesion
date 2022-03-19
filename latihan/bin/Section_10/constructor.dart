@@ -1,6 +1,6 @@
 class Hewan {
-  var mata;
-  var kaki;
+  int? mata;
+  int? kaki;
   Hewan() {
     mata = 0;
     kaki = 0;
