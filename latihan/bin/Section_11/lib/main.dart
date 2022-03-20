@@ -66,8 +66,7 @@ class _MyBodyWidgetState extends State<MyBodyWidget> {
     return Scaffold(
       appBar: AppBar(
           title: const Text("gajkqgayisdsghfhsjdchg"),
-          leading: const Icon(Icons.menu)
-          body:),
+          leading: const Icon(Icons.menu)),
       body: Center(
         child: customWidget,
       ),
