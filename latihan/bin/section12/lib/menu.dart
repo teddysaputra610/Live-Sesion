@@ -51,7 +51,6 @@ class Menu extends StatelessWidget {
 class Barmenu extends StatelessWidget {
   final IconData iconData;
   final String namaicon;
-  // final VoidCallback onTilePressed;
 
   const Barmenu({
     Key? key,
@@ -62,8 +61,6 @@ class Barmenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-        // onTap: onTilePressed,
-        // dense: false,
         leading: Icon(iconData),
         title: Text(
           namaicon,
